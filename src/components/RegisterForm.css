@@ -1,0 +1,57 @@
+.home-form-section {
+    margin-top: 5rem;
+    min-height: 360px;
+    background-image: url('../../public/trigo-banner.webp');
+    background-position: center center;
+    background-size: cover;
+}
+
+.home-form-container {
+    min-height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home-form-text,
+.home-form-container form {
+    flex: 1 0 100px;
+}
+
+.home-form-text h3 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.home-form-container form {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-form-container form label {
+    padding-bottom: 10px;
+}
+
+.home-form-container form input[type='text'],
+.home-form-container form input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.home-form-container form input::placeholder {
+    color: #999;
+}
+
+.home-form-container form input[type='button'] {
+    border: none;
+    background-color: #23cf73;
+    padding: 10px 30px;
+    align-self: center;
+    text-transform: uppercase;
+    color: #fafafa;
+    opacity: 1;
+}

@@ -1,0 +1,77 @@
+.home-banner {
+    min-height: 460px;
+    background-image: url('../../public/hort-banner.webp');
+    background-position: center center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.banner-info {
+    min-height: inherit;
+    text-align: center;
+    color: #fafafa;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-info h2 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.banner-info p {
+    margin-bottom: .5rem;
+}
+
+.banner-info a {
+    padding: 10px 35px;
+    background-color: #23cf73;
+    align-self: center;
+    color: #fafafa;
+    margin-block: 10px;
+    opacity: .9;
+}
+
+.banner-info a:hover {
+    opacity: 1;
+}
+
+.home-info {
+    display: flex;
+    padding: 3rem 0 1rem;
+    gap: 15px;
+}
+
+.home-info-img,
+.home-info-text {
+    flex: 1 0 100px;
+    padding-inline: 10px;
+}
+
+.home-info-text h3 {
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.home-info-text h3:nth-child(2) {
+    margin-bottom: 1rem;
+}
+
+.home-info-text p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.home-info-img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.home-info-img img {
+    max-width: 390px;
+}

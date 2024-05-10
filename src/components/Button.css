@@ -1,0 +1,16 @@
+button {
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #23cf73;
+    padding: 10px 30px;
+    align-self: center;
+    text-transform: uppercase;
+    color: #fafafa;
+    opacity: .85;
+}
+
+button:hover {
+    transition: opacity .2s;
+    opacity: 1;
+}
