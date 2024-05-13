@@ -1,9 +1,12 @@
-.home-banner {
+.banner {
     min-height: 460px;
-    background-image: url('../../public/hort-banner.webp');
     background-position: center center;
     background-size: cover;
     background-clip: border-box;
+}
+
+.home-bg {
+    background-image: url('../../public/hort-banner.webp');
 }
 
 .banner-info {

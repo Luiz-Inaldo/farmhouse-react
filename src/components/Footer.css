@@ -1,0 +1,41 @@
+footer {
+    background-color: #a7d2ba;
+}
+
+.footer-section {
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.footer-section>img {
+    margin-bottom: 1rem;
+}
+
+.social-media-icons {
+    margin-bottom: 1.5rem;
+    & img {
+        margin-inline: 3px;
+        cursor: pointer;
+    }
+}
+
+.phone-number {
+    margin-bottom: 1.3rem;
+
+    & h2 {
+        font-weight: 400;
+        font-size: 35px;
+    }
+}
+
+.opening-hours {
+    margin-bottom: 1.3rem;
+}
+
+.copyright p {
+    text-transform: uppercase;
+}

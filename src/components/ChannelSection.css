@@ -1,0 +1,18 @@
+.yt-channel-section {
+    display: flex;
+    min-height: 360px;
+    align-items: center;
+    gap: 2rem;
+}
+
+.yt-channel-text h3 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.yt-channel-text p {
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+}

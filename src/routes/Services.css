@@ -1,0 +1,51 @@
+.services-top-bg {
+    background-image: url('../../public/fruits-banner.webp');
+}
+
+.products-show-container {
+    padding-bottom: 5rem;
+}
+
+.products-show-container > h2 {
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.products-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card {
+    flex: 1 0 200px;
+    max-width: 300px;
+    padding: 0 10px;
+}
+
+.product-card-img {
+    margin-bottom: 1rem;
+}
+
+.product-card-title {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.services-bottom-bg {
+    background-image: url('../../public/farm-banner.webp');
+}
+
+.services-bottom-bg .banner-info h2 {
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.services-bottom-bg .banner-info p {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}

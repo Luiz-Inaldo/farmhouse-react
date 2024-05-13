@@ -1,6 +1,8 @@
-import { Link, Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import { Header } from './components/Header'
 import { RegisterForm } from './components/RegisterForm'
+import { ChannelSection } from './components/ChannelSection'
+import { Footer } from './components/Footer'
 import './App.css'
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
       <Header />
       <Outlet />
       <RegisterForm />
+      <ChannelSection />
+      <Footer />
     </>
   )
 }

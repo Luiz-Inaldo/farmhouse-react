@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom'
-import { Button } from '../components/Button'
 import './Home.css'
 
 export const Home = () => {
     return (
         <>
-            <div className="home-banner parallax">
+            <div className="banner home-bg">
                 <div className="max-w940 banner-info">
                     <h2>seja bem vindo</h2>
                     <p>
