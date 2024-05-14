@@ -7,7 +7,7 @@ export const Header = () => {
       <nav className="max-w940">
         <div className="logo">
           <Link to='/'>
-            <img src="/public/logo.webp" alt="logo.webp" />
+            <img src="/src/assets/logo.webp" alt="logo.webp" />
           </Link>
         </div>
         <ul className="nav-links">

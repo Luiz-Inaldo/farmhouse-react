@@ -1,7 +1,7 @@
 .home-form-section {
     margin-top: 5rem;
     min-height: 360px;
-    background-image: url('../../public/trigo-banner.webp');
+    background-image: url('../assets/trigo-banner.webp');
     background-position: center center;
     background-size: cover;
 }

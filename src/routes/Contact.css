@@ -1,7 +1,7 @@
 .contact-section {
     text-align: center;
     color: #fafafa;
-    background-image: url('../../public/nature.webp');
+    background-image: url('../assets/nature.webp');
     background-position: center center;
     background-size: cover;
     min-height: 826px;

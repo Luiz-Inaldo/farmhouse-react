@@ -33,12 +33,12 @@ export const Home = () => {
                     </p>
                 </div>
                 <div className="home-info-img">
-                    <img src="../../public/frutas-slices.webp" alt="frutas.webp" />
+                    <img src="src/assets/frutas-slices.webp" alt="frutas.webp" />
                 </div>
             </div>
             <div className="max-w940 home-info">
                 <div className="home-info-img">
-                    <img src="../../public/cesta.webp" alt="frutas.webp" />
+                    <img src="src/assets/cesta.webp" alt="frutas.webp" />
                 </div>
                 <div className="home-info-text">
                     <h3>conheça a</h3>

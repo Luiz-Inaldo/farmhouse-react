@@ -23,7 +23,7 @@ export const Services = () => {
                 <div className="products-box">
                     <div className="product-card">
                         <div className="product-card-img">
-                            <img src="../../public/hort.webp" alt="hort" title='horti' />
+                            <img src="src/assets/hort.webp" alt="hort" title='horti' />
                         </div>
                         <h2 className="product-card-title">
                             horta
@@ -34,7 +34,7 @@ export const Services = () => {
                     </div>
                     <div className="product-card">
                         <div className="product-card-img">
-                            <img src="../../public/fruta.webp" alt="fruta" title='fruta' />
+                            <img src="src/assets/fruta.webp" alt="fruta" title='fruta' />
                         </div>
                         <h2 className="product-card-title">
                             frutas
@@ -45,7 +45,7 @@ export const Services = () => {
                     </div>
                     <div className="product-card">
                         <div className="product-card-img">
-                            <img src="../../public/trigo.webp" alt="trigo" title='trigo' />
+                            <img src="src/assets/trigo.webp" alt="trigo" title='trigo' />
                         </div>
                         <h2 className="product-card-title">
                             trigo

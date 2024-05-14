@@ -28,16 +28,16 @@ export const Carousel = () => {
                 className='swiper-main'
             >
                 <SwiperSlide>
-                    <img src="../../public/slide1.jpg" alt="slide-img" />
+                    <img src="src/assets/slide1.jpg" alt="slide-img" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="../../public/slide2.jpg" alt="slide-img" />
+                    <img src="src/assets/slide2.jpg" alt="slide-img" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="../../public/slide3.jpg" alt="slide-img" />
+                    <img src="src/assets/slide3.jpg" alt="slide-img" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="../../public/slide4.jpg" alt="slide-img" />
+                    <img src="src/assets/slide4.jpg" alt="slide-img" />
                 </SwiperSlide>
             </Swiper>
         </div>
