@@ -28,7 +28,7 @@ export const Carousel = () => {
                 className='swiper-main'
             >
                 <SwiperSlide>
-                    <img src="src/assets/slide1.jpg" alt="slide-img" />
+                    <img src="./src/assets/slide1.jpg" alt="slide-img" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src="src/assets/slide2.jpg" alt="slide-img" />
