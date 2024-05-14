@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Button } from '../components/Button'
+import { Carousel } from '../components/Carousel'
 import "./Services.css"
 
 export const Services = () => {
@@ -62,6 +63,10 @@ export const Services = () => {
                     <p>venha nos conhecer</p>
                     <Button value='agendar visita' />
                 </div>
+            </div>
+            <div className="max-w940 gallery-section">
+                <h2>conheça a farmhouse</h2>
+                <Carousel />
             </div>
         </>
     )

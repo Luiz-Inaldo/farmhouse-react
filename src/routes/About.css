@@ -1,0 +1,45 @@
+.about-bg {
+    background-image: url('../../public/banner-fruits2.webp');
+}
+
+.staff-section {
+    padding: 70px 0;
+}
+
+.staff-section > h2 {
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.staff-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.staff-member {
+    flex: 1 0 0;
+    padding: 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.member-img {
+    width: 100%;
+}
+
+.member-img img {
+    width: 100%;
+}
+
+.member-name {
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.member-job {
+    color: #ffbe46;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,48 @@
+.contact-section {
+    text-align: center;
+    color: #fafafa;
+    background-image: url('../../public/nature.webp');
+    background-position: center center;
+    background-size: cover;
+    min-height: 826px;
+}
+
+.contact-section h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 50px 0;
+}
+
+.contact-section p {
+    text-transform: uppercase;
+}
+
+.contact-form {
+    padding: 30px 0;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form label {
+    margin-bottom: 20px;
+}
+
+.contact-form form input {
+    width: 50%;
+    padding: 7px 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form form textarea {
+    width: 50%;
+    height: 200px;
+    align-self: center;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
