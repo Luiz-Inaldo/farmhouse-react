@@ -1,6 +1,13 @@
 import { Link } from 'react-router-dom'
 import { Button } from '../components/Button'
 import { Carousel } from '../components/Carousel'
+
+// img url imports
+import hortImg from '../assets/hort.webp'
+import frutaImg from '../assets/fruta.webp'
+import trigoImg from '../assets/trigo.webp'
+
+// css
 import "./Services.css"
 
 export const Services = () => {
@@ -23,7 +30,7 @@ export const Services = () => {
                 <div className="products-box">
                     <div className="product-card">
                         <div className="product-card-img">
-                            <img src="src/assets/hort.webp" alt="hort" title='horti' />
+                            <img src={hortImg} alt="hort" title='horti' />
                         </div>
                         <h2 className="product-card-title">
                             horta
@@ -34,7 +41,7 @@ export const Services = () => {
                     </div>
                     <div className="product-card">
                         <div className="product-card-img">
-                            <img src="src/assets/fruta.webp" alt="fruta" title='fruta' />
+                            <img src={frutaImg} alt="fruta" title='fruta' />
                         </div>
                         <h2 className="product-card-title">
                             frutas
@@ -45,7 +52,7 @@ export const Services = () => {
                     </div>
                     <div className="product-card">
                         <div className="product-card-img">
-                            <img src="src/assets/trigo.webp" alt="trigo" title='trigo' />
+                            <img src={trigoImg} alt="trigo" title='trigo' />
                         </div>
                         <h2 className="product-card-title">
                             trigo

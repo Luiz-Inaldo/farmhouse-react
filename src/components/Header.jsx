@@ -1,6 +1,7 @@
 import { NavLink, Link } from "react-router-dom"
+
 // imgURL import
-import headerLogoUrl from '../assets/logo.webp'
+import headerLogo from '../assets/logo.webp'
 
 // css
 import './Header.css'
@@ -11,7 +12,7 @@ export const Header = () => {
       <nav className="max-w940">
         <div className="logo">
           <Link to='/'>
-            <img src={headerLogoUrl} alt="logo.webp" />
+            <img src={headerLogo} alt="logo.webp" />
           </Link>
         </div>
         <ul className="nav-links">

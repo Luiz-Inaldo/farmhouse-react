@@ -1,5 +1,9 @@
 import { Link } from 'react-router-dom'
 
+// img url import
+import slices from '../assets/frutas-slices.webp'
+import cesta from '../assets/cesta.webp'
+
 //css
 import './Home.css'
 
@@ -36,12 +40,12 @@ export const Home = () => {
                     </p>
                 </div>
                 <div className="home-info-img">
-                    <img src='./src/assets/frutas-slices.webp' alt="frutas.webp" />
+                    <img src={slices} alt="frutas.webp" />
                 </div>
             </div>
             <div className="max-w940 home-info">
                 <div className="home-info-img">
-                    <img src='./src/assets/cesta.webp' alt="frutas.webp" />
+                    <img src={cesta} alt="frutas.webp" />
                 </div>
                 <div className="home-info-text">
                     <h3>conheça a</h3>

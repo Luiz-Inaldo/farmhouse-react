@@ -12,6 +12,12 @@ import 'swiper/css/pagination';
 // import modules
 import { FreeMode, Navigation, Pagination } from 'swiper/modules';
 
+// img url import
+import slide1 from '../assets/slide1.jpg'
+import slide2 from '../assets/slide2.jpg'
+import slide3 from '../assets/slide3.jpg'
+import slide4 from '../assets/slide4.jpg'
+
 // import css
 import './Carousel.css'
 
@@ -28,16 +34,16 @@ export const Carousel = () => {
                 className='swiper-main'
             >
                 <SwiperSlide>
-                    <img src="./src/assets/slide1.jpg" alt="slide-img" />
+                    <img src={slide1} alt="slide-img" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="src/assets/slide2.jpg" alt="slide-img" />
+                    <img src={slide2} alt="slide-img" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="src/assets/slide3.jpg" alt="slide-img" />
+                    <img src={slide3} alt="slide-img" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="src/assets/slide4.jpg" alt="slide-img" />
+                    <img src={slide4} alt="slide-img" />
                 </SwiperSlide>
             </Swiper>
         </div>
