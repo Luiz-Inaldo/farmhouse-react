@@ -1,17 +1,13 @@
 import { Link } from 'react-router-dom'
 
-// imagensUrl Import
-import slicesUrl from '../assets/frutas-slices.webp'
-import bannerTopUrl from '../assets/hort-banner.webp'
+//css
 import './Home.css'
 
 export const Home = () => {
 
     return (
         <>
-            <div className="banner"
-                style={{'background': `url(${bannerTopUrl})`}}
-            >
+            <div className="banner home-bg">
                 <div className="max-w940 banner-info">
                     <h2>seja bem vindo</h2>
                     <p>
@@ -40,13 +36,12 @@ export const Home = () => {
                     </p>
                 </div>
                 <div className="home-info-img">
-                    <img src="src/assets/frutas-slices.webp" alt="frutas.webp" />
-                    <img src={slicesUrl} alt="frutas.webp" />
+                    <img src='./src/assets/frutas-slices.webp' alt="frutas.webp" />
                 </div>
             </div>
             <div className="max-w940 home-info">
                 <div className="home-info-img">
-                    <img src="src/assets/cesta.webp" alt="frutas.webp" />
+                    <img src='./src/assets/cesta.webp' alt="frutas.webp" />
                 </div>
                 <div className="home-info-text">
                     <h3>conheça a</h3>

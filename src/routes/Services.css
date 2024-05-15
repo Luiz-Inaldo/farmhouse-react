@@ -1,5 +1,5 @@
 .services-top-bg {
-    background-image: url('src/assets/fruits-banner.webp');
+    background-image: url('../assets/fruits-banner.webp');
 }
 
 .products-show-container {
@@ -36,7 +36,7 @@
 }
 
 .services-bottom-bg {
-    background-image: url('src/assets/farm-banner.webp');
+    background-image: url('../assets/farm-banner.webp');
 }
 
 .services-bottom-bg .banner-info h2 {
