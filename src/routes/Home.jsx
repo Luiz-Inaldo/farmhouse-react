@@ -1,11 +1,17 @@
 import { Link } from 'react-router-dom'
+
+// imagensUrl Import
 import slicesUrl from '../assets/frutas-slices.webp'
+import bannerTopUrl from '../assets/hort-banner.webp'
 import './Home.css'
 
 export const Home = () => {
+
     return (
         <>
-            <div className="banner home-bg">
+            <div className="banner"
+                style={{'background': `url(${bannerTopUrl})`}}
+            >
                 <div className="max-w940 banner-info">
                     <h2>seja bem vindo</h2>
                     <p>

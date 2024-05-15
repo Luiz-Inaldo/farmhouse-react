@@ -5,10 +5,6 @@
     background-clip: border-box;
 }
 
-.home-bg {
-    background-image: url('src/assets/hort-banner.webp');
-}
-
 .banner-info {
     min-height: inherit;
     text-align: center;
