@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import slicesUrl from '../assets/frutas-slices.webp'
 import './Home.css'
 
 export const Home = () => {
@@ -34,6 +35,7 @@ export const Home = () => {
                 </div>
                 <div className="home-info-img">
                     <img src="src/assets/frutas-slices.webp" alt="frutas.webp" />
+                    <img src={slicesUrl} alt="frutas.webp" />
                 </div>
             </div>
             <div className="max-w940 home-info">
