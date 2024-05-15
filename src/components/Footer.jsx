@@ -3,12 +3,13 @@ import Facebook from '../assets/facebook.svg'
 import Instagram from '../assets/instagram.svg'
 import Twitter from '../assets/twitter.svg'
 import Linkedin from '../assets/linkedin.svg'
+import logoFooter from '../assets/logo-rodape.webp'
 
 export const Footer = () => {
     return (
         <footer>
             <div className="max-w940 footer-section">
-                <img src="src/assets/logo-rodape.webp" title='logo_rodape.webp' alt="rodape_logo" />
+                <img src={logoFooter} title='logo_rodape.webp' alt="rodape_logo" />
                 <div className="social-media-icons">
                     <img src={Facebook} alt="facebook.svg" title='facebook.svg' />
                     <img src={Instagram} alt="instagram.svg" title='instagram.svg' />
