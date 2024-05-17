@@ -16,17 +16,27 @@
 
 .products-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .product-card {
-    flex: 1 0 200px;
+    flex: 1 0 300px;
     max-width: 300px;
     padding: 0 10px;
 }
 
 .product-card-img {
+    display: flex;
     margin-bottom: 1rem;
+    max-width: 100%;
+    min-height: 200px;
+}
+
+.product-card-img img {
+    max-width: 100%;
 }
 
 .product-card-title {
@@ -52,7 +62,7 @@
 
 .gallery-section {
     text-align: center;
-    padding: 70px 0
+    padding: 70px 10px
 }
 
 .gallery-section h2 {

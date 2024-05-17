@@ -11,11 +11,16 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding-inline: 10px;
 }
 
 .home-form-text,
 .home-form-container form {
-    flex: 1 0 100px;
+    flex: 1 0 300px;
+}
+
+.home-form-text {
+    text-align: center;
 }
 
 .home-form-text h3 {

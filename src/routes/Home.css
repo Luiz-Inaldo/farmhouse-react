@@ -46,11 +46,13 @@
     display: flex;
     padding: 3rem 0 1rem;
     gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .home-info-img,
 .home-info-text {
-    flex: 1 0 100px;
+    flex: 1 0 300px;
     padding-inline: 10px;
 }
 
@@ -72,9 +74,17 @@
 
 .home-info-img {
     max-width: 100%;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .home-info-img img {
-    max-width: 390px;
+    width: 100%;
+}
+
+/* responsive */
+@media screen and (max-width: 430px) {
+    .home-info-img {
+        max-width: 70%;
+    }
 }

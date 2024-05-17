@@ -12,7 +12,7 @@ export const ChannelSection = () => {
                 <Button value='clique e confira' />
             </div>
             <div className="yt-channel-frame">
-                <iframe width="450" height="248" src="https://www.youtube.com/embed/Kw9yHtqC2pA?si=HOqWQqnwtXYwdjLc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                <iframe width="100%" height="80%" src="https://www.youtube.com/embed/Kw9yHtqC2pA?si=HOqWQqnwtXYwdjLc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
         </div>
     )

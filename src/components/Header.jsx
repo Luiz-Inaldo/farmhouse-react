@@ -1,4 +1,5 @@
 import { NavLink, Link } from "react-router-dom"
+import { HamburguerMenu } from "./HamburguerMenu"
 
 // imgURL import
 import headerLogo from '../assets/logo.webp'
@@ -7,6 +8,7 @@ import headerLogo from '../assets/logo.webp'
 import './Header.css'
 
 export const Header = () => {
+
   return (
     <header>
       <nav className="max-w940">
@@ -15,25 +17,26 @@ export const Header = () => {
             <img src={headerLogo} alt="logo.webp" />
           </Link>
         </div>
-        <ul className="nav-links">
+        <ul className={`nav-links`}>
           <li>
             <NavLink to='/'
-            className={({isActive}) => isActive ? "active-nav-link" : ""}>Home</NavLink>
+              className={({ isActive }) => isActive ? "active-nav-link" : ""}>Home</NavLink>
           </li>
           <li>
             <NavLink to='/servicos'
-            className={({isActive}) => isActive ? "active-nav-link" : ""}>Serviços</NavLink>
+              className={({ isActive }) => isActive ? "active-nav-link" : ""}>Serviços</NavLink>
           </li>
           <li>
             <NavLink to='/sobre'
-            className={({isActive}) => isActive ? "active-nav-link" : ""}>Sobre</NavLink>
+              className={({ isActive }) => isActive ? "active-nav-link" : ""}>Sobre</NavLink>
           </li>
           <li>
             <NavLink to='/contato'
-            className={({isActive}) => isActive ? "active-nav-link" : ""}>Contato</NavLink>
+              className={({ isActive }) => isActive ? "active-nav-link" : ""}>Contato</NavLink>
           </li>
         </ul>
       </nav>
+      <HamburguerMenu />
     </header>
   )
 }

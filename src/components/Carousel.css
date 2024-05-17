@@ -50,3 +50,16 @@
     width: 100%;
     top: -20%;
 }
+
+
+/* responsive */
+@media screen and (max-width: 430px) {
+
+    .swiper-slide img {
+        top: 25%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        top: var(--swiper-navigation-top-offset, 60%);
+    }
+}

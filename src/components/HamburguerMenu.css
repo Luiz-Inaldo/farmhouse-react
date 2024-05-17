@@ -1,0 +1,51 @@
+.hamburguer-menu-container {
+    display: none;
+}
+
+@media screen  and (max-width: 430px) {
+    
+    .hamburguer-menu-container {
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        min-height: 100vh;
+    }
+
+    .material-symbols-outlined {
+        width: 60px;
+        height: 60px;
+        font-size: 40px;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 0 0 0 5px;
+    }
+
+    .slide-menu {
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        min-height: 100vh;
+        background-color: rgb(220 220 220 / 90%);
+        transition: .3s;
+    }
+
+    .slide-menu a {
+        color: #121212;
+        font-size: 1.5rem;
+        padding: 10px 12px;
+        text-transform: uppercase;
+    }
+
+    .slide-hidden {
+        width: 0;
+        height: 0;
+        transition: .3s;
+    }
+
+    .active-slide-link {
+        font-weight: bold;
+    }
+
+}

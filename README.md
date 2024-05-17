@@ -1,8 +1,14 @@
-# React + Vite
+# 🍎 FARMHOUSE:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Se você procura alimentação orgânica, então encontrou o lugar certo! Na FARMHOUSE trabalhamos com os melhores produtos orgânicos da região. Venha conferir um pouco do nosso trabalho!
 
-Currently, two official plugins are available:
+### 💻 Linguagens usadas na construção dessa aplicação:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+. HTML
+. CSS
+. ReactJS
+
+### Confira:
+
+deploy: [vercel](https://farmhouse-react.vercel.app/)
+potifolio: [link](https://luiz-frontend-portifolio-new.vercel.app/)

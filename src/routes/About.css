@@ -20,7 +20,7 @@
 }
 
 .staff-member {
-    flex: 1 0 0;
+    flex: 1 0 300px;
     padding: 0 10px;
     text-align: center;
     text-transform: uppercase;
@@ -42,4 +42,11 @@
 .member-job {
     color: #ffbe46;
     margin-bottom: 20px;
+}
+
+/* responsive */
+@media screen and (max-width: 430px) {
+    .staff-box {
+        gap: 2rem;
+    }
 }

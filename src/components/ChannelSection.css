@@ -1,8 +1,10 @@
 .yt-channel-section {
     display: flex;
-    min-height: 360px;
+    min-height: 399px;
     align-items: center;
     gap: 2rem;
+    flex-wrap: wrap;
+    padding-inline: 10px;
 }
 
 .yt-channel-text h3 {
@@ -15,4 +17,15 @@
 .yt-channel-text p {
     font-size: 18px;
     margin-bottom: 1.5rem;
+}
+
+.yt-channel-text,
+.yt-channel-frame {
+    flex: 1 0 300px;
+}
+
+.yt-channel-frame {
+    height: 315px;
+    display: flex;
+    align-items: center;
 }
